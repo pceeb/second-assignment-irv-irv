@@ -28,3 +28,4 @@
   646  ls -n
   647  grep -i -w -v ara spawannxs.txt
   648  history | tail -n 30 > For_Daniel_Wildcard.txt 
+hello
