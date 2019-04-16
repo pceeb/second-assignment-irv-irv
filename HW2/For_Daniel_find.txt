@@ -1,0 +1,30 @@
+  640  grep -i Falco spawannxs.txt
+  641  grep -i ara spawannxs.txt
+  642  grep -i -w ara spawannxs.txt 
+  643  grep -i -w -A l ara spawannxs.txt 
+  644  grep -i -w -A 1 ara spawannxs.txt
+  645  -n 
+  646  ls -n
+  647  grep -i -w -v ara spawannxs.txt
+  648  history | tail -n 30 > For_Daniel_Wildcard.txt 
+  649  mkdir TestFind
+  650  cd TestFind/
+  651  mkdir -p Dir1/Dir11/Dir111
+  652  mkdir Dir2
+  653  mkdir Dir3
+  654  touch Dir1/File1.txt
+  655  touch Dir1/File1.csv
+  656  touch Dir1/File1.tex
+  657  touch Dir1/File2.txt
+  658  touch Dir1/File2.csv
+  659  touch Dir1/File2.tex
+  660  touch Dir1/Dir11/Dir111/File111.txt
+  661  touch Dir3/File3.txt
+  662  find . -name "File1.txt"
+  663  find . -name "File1.txt"  
+  664  find . -name "*.txt"
+  665  find . -maxdepth 2 -name "*.txt" 
+  666  find . -maxdepth 2 -not -name "*.txt"
+  667  find . -type d 
+  668  find . -type f -exec ls -s {} \; | sort -n | head -10
+  669  history | tail -n 30 > For_Daniel_find.txt
