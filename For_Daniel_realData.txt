@@ -1,0 +1,50 @@
+  813  h_data=2G, h_rt=7:30:00
+  814  ls
+  815  cd introscicomp2014/
+  816  cd
+  817  ls
+  818  cd introscicomp2014/
+  819  ls
+  820  cd UNIX/
+  821  ls
+  822  cd Data/
+  823  ls
+  824  grep -W "evolution" darwin.txt | wc -l
+  825  grep -W "evolved" darwin.txt | wc -l
+  826  grep -W "natural selection" darwin.txt | wc -l
+  827  grep -W "Wallace" darwin.txt | wc -l
+  828  ls
+  829  cd Temperatures/
+  830  LS
+  831  ls
+  832  less 1800.csv 
+  833  history | tail -n 50 >> For_Daniel_realData.txt
+  834  grep-i-w 'TMAX' 1800.csv | grep "1800$01_01" | cut -d "," -f 3 | sprt tail -n 1
+  835  grep-i-w 'TMAX' 1800.csv | grep "1800$01_01" | cut -d "," -f 3 | sort tail -n 1
+  836  grep-i-w 'TMAX' 1800.csv | grep "1800$0101" | cut -d "," -f 3 | sort tail -n 1
+  837  grep -i -w 'TMAX' 1800.csv | grep "1800$0101" | cut -d "," -f 3 | sort tail -n 1
+  838  grep -i W 'TMAX' 1800.csv | grep "1800$0101" | cut -d "," -f 3 | sort tail -n 1
+  839  grep -i -w 'TMAX' 1800.csv | grep "18000101" | cut -d "," -f 3 | sort tail -n 1
+  840* grep -i -w "TMAX" 1800.csv | grep "18000101" | cut -d "," -f 4 | sort tail -n1
+  841  grep -i -w "TMAX" 1800.csv | grep "18000101" | cut -d "," -f 4 | sort tail -n 1
+  842  grep -i -w "TMAX" 1800.csv | grep "18000101" | cut -d "," -f 4 | sort tail -n1
+  843  grep -i -w "TMAX" 1800.csv | grep "180000101" | cut -d "," -f 4 | sort tail -n1
+  844  grep -i -w "TMAX" 1800.csv | grep "18000101" | cut -d "," -f4 | sort tail -n1
+  845  grep -i -w "TMAX" 1800.csv | grep "18000101" | cut -d "," -f4 | sort -n | tail -n1
+  846  history | tail -n 50 >> For_Daniel_realData.txt
+  847  cd ~
+  848  ls
+  849  cd introscicomp2014/
+  850  cd ..?
+  851  cd ../
+  852  ls
+  853  cd second-assignment-irv-irv/
+  854  ls
+  855  cd ~
+  856  introscicomp2014/
+  857  cd introscicomp2014/
+  858  cd UNIX/
+  859  ls
+  860  cd Data/
+  861  ls
+  862  history | tail -n 50 > For_Daniel_realData.txt
